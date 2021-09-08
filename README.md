@@ -30,11 +30,11 @@ npx create-react-app 프로젝트 폴더명
 리액트 서버 실행 
 -------
 <br>
-#### npm start
+npm start
 
-<br>
 App.js
 -----
+
 ```javaScript
 
 function App() {
@@ -51,7 +51,7 @@ export default App;
 ### App 의 정보를  index.js로 보내준다.
 Index.js
 -------
-``` JavaScript
+```javaScript
 import ReactDOM from 'react-dom';
 import App from './App';
 
