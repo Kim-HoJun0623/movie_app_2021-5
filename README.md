@@ -25,8 +25,6 @@ React특징
 npx create-react-app 프로젝트 폴더명
 </u>
 
-
-<br>
 리액트 서버 실행 
 -------
 <br>
@@ -63,9 +61,9 @@ ReactDOM.render(
 );
 
 ```
-index.js 에서 정보를 받고 그정보를 index.html 한테  보내주어서 화면으로 표출해준다.
+### index.js 에서 정보를 받고 그정보를 index.html 한테  보내주어서 화면으로 표출해준다.
 index.html
------
+
 ``` html
 <div id="root"></div>
 ```
