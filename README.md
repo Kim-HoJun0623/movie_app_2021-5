@@ -34,7 +34,7 @@ npx create-react-app 프로젝트 폴더명
 <br>
 App.js
 -----
-``` JavaScript
+```JavaScript
 
 function App() {
   return (
