@@ -28,13 +28,14 @@ npx create-react-app 프로젝트 폴더명
 
 <br>
 리액트 서버 실행 
-----------
+-------
+<br>
 #### npm start
 
 <br>
 App.js
 -----
-```JavaScript
+```javaScript
 
 function App() {
   return (
