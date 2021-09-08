@@ -20,12 +20,51 @@ React특징
 
 리액트 생성
 ----------
+
+<u>
+npx create-react-app 프로젝트 폴더명
+</u>
+
+
 <br>
-__안녕하세여__
-
-<br> 
-프로젝트 폴더명
-
-
 리액트 서버 실행 
-npm start
+----------
+#### npm start
+
+<br>
+App.js
+-----
+``` JavaScript
+
+function App() {
+  return (
+    <div>
+      Hello!! React
+    </div>
+  );
+}
+
+
+export default App;
+```
+### App 의 정보를  index.js로 보내준다.
+Index.js
+-------
+``` JavaScript
+import ReactDOM from 'react-dom';
+import App from './App';
+
+
+ReactDOM.render(
+
+    <App/>,
+  document.getElementById('root')
+);
+
+```
+index.js 에서 정보를 받고 그정보를 index.html 한테  보내주어서 화면으로 표출해준다.
+index.html
+-----
+``` html
+<div id="root"></div>
+```
