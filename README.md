@@ -21,7 +21,7 @@ Map 함수
 이렇게 정렬되어 하나하나 보여준다.
 <hr>
 
-## 저번주 활용 - Potato.js 를 만들어 react화면에 표출 
+## 저번주 활용 - Potato.js 를 만들어 react 화면에 표출 
 
 <br>
 Potato.js 
