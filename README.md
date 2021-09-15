@@ -1,4 +1,50 @@
 # 김호준 201740211
+## [09월15일]
+<br>
+
+Map 함수
+----
+>선언형 프로그래밍으로써 map 함수를 사용하여 받은 값으들 하나하나 보여준다.
+```javascript
+  const friends = ["a","b","c"]
+  
+  friends.map(foo =>{
+    console.log(foo);
+    return 0;
+  })
+
+```
+이결과 콘솔창에 map함수로 인하여 정렬되는것을 확인하실수있습니다.
+
+![ex_imgage](./0915.png)
+
+이렇게 정렬되어 하나하나 보여준다.
+<hr>
+
+## 저번주 활용 - Potato.js 를 만들어 react화면에 표출 
+
+<br>
+Potato.js 
+
+```javascript
+    function Potato(bar){
+        return<h1>I love {bar.fav}</h1>
+    }
+        export default Potato;
+```
+App.js
+```javascript
+import Potato from "./Potato";
+
+function App() {
+  return (
+    <Potato fav="potato"/>
+  )
+
+export default App;
+```
+Potato.js를 function을 App.js에 import 후 ```<Potato>```를 return하면 index.js에서 Potato.js의 값을 react화면에 보여준다
+
 <br> 
  
  ## [09월08일]
