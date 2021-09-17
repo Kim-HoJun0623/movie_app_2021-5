@@ -4,7 +4,7 @@
 
 Map 함수
 ----
->선언형 프로그래밍으로써 map 함수를 사용하여 받은 값으들 하나하나 보여준다.
+>선언형 프로그래밍으로써 map 함수를 사용하여 받은 값을 하나하나 보여준다.
 ```javascript
   const friends = ["a","b","c"]
   
@@ -29,7 +29,7 @@ Potato.js
 ```javascript
     function Potato(bar){
         return<h1>I love {bar.fav}</h1>
-    }
+       }
         export default Potato;
 ```
 App.js
