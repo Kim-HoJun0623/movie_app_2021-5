@@ -1,7 +1,6 @@
 # 김호준 201740211
 
 ## [09월29일]
-<br>
 
 Prop-Types 도입
 ---
@@ -41,11 +40,12 @@ class 형 컴포넌트에서 바로 return을 바로 사용할 수 없기에 ren
   export default Appst
 ```
 출력 ->Hello React
+
+
+<br>
  
 
 ## [09월15일]
-<br>
-
 Map 함수
 ----
 >선언형 프로그래밍으로써 map 함수를 사용하여 받은 값을 하나하나 보여준다.
