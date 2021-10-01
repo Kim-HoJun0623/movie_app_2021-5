@@ -1,4 +1,48 @@
 # 김호준 201740211
+
+## [09월29일]
+<br>
+
+Prop-Types 도입
+---
+prop-Types을 도입하면 
+<br>
+>Picture Props에{dish.image}가 아닌{true}를 전달할경우 이를 검사해준다.
+<br><br>
+
+Prop-Types 다운
+---
+터미널에서  명령어 입력
+```javascript
+  npm install prop-types
+```
+prop-types등록하여 컴포넌트가 전달받은 props가 원하는 값인 확인해준다.
+<br><br>
+
+State 사용하기
+---
+>class를 `React.Component'로 상속받는다.
+<br>
+'React.Component'클래스는 500줄이 넘는 코드로 여러가지 구현을 가져와 사용할 수 있다.
+
+<br>
+class 형 컴포넌트에서 바로 return을 바로 사용할 수 없기에 render()함수 내에서 return문을 사용해준다.
+
+```javascript
+  import React,{Component} from 'react'
+  
+  class Appst extends Component{
+      render(){
+        return(
+          <h1> Hello React <h1/>
+        )
+      }
+  }
+  export default Appst
+```
+출력 ->Hello React
+ 
+
 ## [09월15일]
 <br>
 
