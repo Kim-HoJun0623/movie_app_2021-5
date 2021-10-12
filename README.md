@@ -12,7 +12,7 @@ npm install axios
 >Json 주소를 입력
   https://yts.mx/api/v2/list_movies.json
 >
-접속시 min 방식이라 보시 불편하다.
+접속시 min 방식이라 보기 불편하다.
 
 <br>
 
