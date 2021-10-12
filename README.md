@@ -1,4 +1,36 @@
 # 김호준 201740211
+## [10월06일]
+<dr>
+
+## axios 설치
+TERMINAL(터미널)
+```
+npm install axios
+```
+<br>
+
+>Json 주소를 입력
+  https://yts.mx/api/v2/list_movies.json
+>
+접속시 min 방식이라 보시 불편하다.
+
+<br>
+
+크롬 웹스토어에서 
+### JSON Viewer 설치
+다시 Json주소로 접속해준다. 
+
+>status : 응답상태 메세지
+<br>
+data : 영화 데이터
+<br>
+mobie_count : API가 보내준 영화 데이터 개수
+<br>
+>limit : 보내준  데이터의 개수
+<br>
+ movies키 서브키로(id,url,imdb_code,title)등 제공
+>
+<br>
 
 ## [09월29일]
 
