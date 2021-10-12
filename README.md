@@ -13,7 +13,6 @@ npm install axios
   https://yts.mx/api/v2/list_movies.json
 >
 접속시 min 방식이라 보기 불편하다.
-
 <br>
 
 크롬 웹스토어에서 
@@ -25,6 +24,29 @@ npm install axios
 >3. mobie_count : API가 보내준 영화 데이터 개수
 >4. limit : 보내준  데이터의 개수
 >5. movies키 서브키로(id,url,imdb_code,title)등 제공
+<hr >
+
+### getMovies()에 async 붙이고, axios.get()에 await붙이기
+```javascript
+  getMovies = async () =>{
+    const movies = await axios.get('https://yts.ms/api/v2/list_movies.json')
+  }
+  
+  componnetDidMount(){
+    this.getMovies()
+  }
+```
+console 로 출력해보기
+
+~~~javascript
+
+  getMovies = async () =>{
+    const movies = await axios.get('https://yts.ms/api/v2/list_movies.json')
+    console.log(movies)
+  }
+  
+ ~~~
+  ![ex.image](./1006.png)
 
 <br>
 
