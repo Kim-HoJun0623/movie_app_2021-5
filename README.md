@@ -20,16 +20,12 @@ npm install axios
 ### JSON Viewer 설치
 다시 Json주소로 접속해준다. 
 
->status : 응답상태 메세지
-<br>
-data : 영화 데이터
-<br>
-mobie_count : API가 보내준 영화 데이터 개수
-<br>
->limit : 보내준  데이터의 개수
-<br>
- movies키 서브키로(id,url,imdb_code,title)등 제공
->
+>1. status : 응답상태 메세지
+>2. data : 영화 데이터
+>3. mobie_count : API가 보내준 영화 데이터 개수
+>4. limit : 보내준  데이터의 개수
+>5. movies키 서브키로(id,url,imdb_code,title)등 제공
+
 <br>
 
 ## [09월29일]
