@@ -1,4 +1,55 @@
 # 김호준 201740211
+
+## [10월15일]
+<dr>
+
+### Movie컴포넌트 만들기
+
+```js
+
+import PropTypes from 'prop-types'
+function Movie(){
+    return <h1>Hello</h1>
+}
+
+Movie.propTypes = {}
+
+export default Movie
+```
+<br>
+
+>yts-proxy.now.sh/list_movies.json 접속
+>필요한 데이터 가져오기
+
+Movie.propTypes 필요한 값을 써준다.
+
+```javascript
+
+  Movie.propTypes = {
+    year: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    summary:PropTypes.string.isRequired,
+    poster: PropTypes.string.isRequired,
+    genres: PropTypes.arrayOf(PropTypes.string).isRequired
+}
+```
+axios.get()에 yts-proxy.now.sh/list_movies.json?sort_by=rating 전달
+``` javascript
+await axios.get('https://yts.mx/api/v2/list_movies.json?sort_by=rating')//sort_by=rating을 통해여전달 및 정렬
+
+```
+Movie 컴포넌트에서 props 추가및출력
+
+```js
+function Movie({year,title,summary,poster}){
+    return <h3>{title}</h3>//title 정보를 받아와 출력해준다
+}
+
+```
+
+
+
+
 ## [10월06일]
 <dr>
 
