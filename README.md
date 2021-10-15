@@ -44,9 +44,44 @@ Movie 컴포넌트에서 props 추가및출력
 function Movie({year,title,summary,poster}){
     return <h3>{title}</h3>//title 정보를 받아와 출력해준다
 }
-
 ```
+로딩 완료 후 실행 자리에 movies.map() 사용하여 함수전달
 
+```js
+  render(){
+    const{inLoading, movies} = this.state
+    return<div>{isLoading? 'Loading...' : movies.map()}
+  }
+```
+map()함수에 컴포넌트 반환함수 전달
+
+```js
+    {isLoading
+    ?'Loading...' 
+    : movies.map((movie)=>{
+      console.log(movie)
+      return
+    })}
+```
+App.js에Movie컴포넌트를 import하여movies.map()가 <Movie/>를 반환할 수 있도록 한다 
+
+```js
+  import Movie from './Movie'
+
+
+  movies.map((movie)=>{
+       <Movie 
+             key = {movie.id}
+             id = {movie.id}
+             year = {movie.year}
+             title = {movie.title}
+             summary = {movie.summary}
+             poster = {movie.medium_cover_image}
+             genres ={movies.genres}/>
+      return
+    })}
+```
+Movie컴포넌트에 props전달!
 
 
 
