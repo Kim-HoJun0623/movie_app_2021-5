@@ -1,5 +1,54 @@
 # 김호준 201740211
 
+## [10월27일]
+
+### Slice함수
+
+slice는 
+```js
+  <p className='movie-summary'>
+{summary.slice(0, 180)}...
+</p>
+```
+slice(0,n) 글자 수를 n 만큼 표시해줍니다.
+글자수 만큼 출력후 끊키기에 자연스래
+...을 사용해서 부드럽게 만들어 줍니다.
+
+### Router 
+
+Router 설치방법
+```javascript
+npm install react-router-dom
+```
+라우터는 사용자가 입력한 URL을 통해 특정 컴포넌트를 불러준다.<br>
+ex) loclahost:3000/about
+#### About.js
+```js
+import './About.css'
+console.log("about");
+function About(){
+    return(
+        <div className='about-container'>
+           <span> <h1>Hello About</h1></span>
+        </div>
+    )
+}
+
+export default About
+
+```
+이렇게 코드를 입력후 /about을 App.js에 HashRouter,Route를 사용하여Route컴포넌트에 전달한 path props를보고 componentprops에  지정한 About컴포넌트를 그려준것이다.
+<br>
+<br>
+>localhost:3000에 접속하면기본 컴포넌트 
+>뒤에 /about를하면 전달받아 About.js를 보여주게되는것이다
+
+  ![ex.image](./1030.png)
+  ※ About.css적용이 되어있습니다!
+
+
+
+
 ## [10월13일]
 <dr>
 
