@@ -4,7 +4,7 @@
 
 ### Slice함수
 
-slice는 
+#### slice는 
 ```js
   <p className='movie-summary'>
 {summary.slice(0, 180)}...
