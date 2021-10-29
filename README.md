@@ -49,8 +49,6 @@ export default About
   ※ About.css적용이 되어있습니다!
 
 
-
-
 ## [10월13일]
 <dr>
 
