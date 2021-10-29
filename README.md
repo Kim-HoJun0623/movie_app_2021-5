@@ -37,13 +37,15 @@ function About(){
 export default About
 
 ```
+<br>
 이렇게 코드를 입력후 /about을 App.js에 HashRouter,Route를 사용하여Route컴포넌트에 전달한 path props를보고 componentprops에  지정한 About컴포넌트를 그려준것이다.
 <br>
 <br>
->localhost:3000에 접속하면기본 컴포넌트 
+>localhost:3000에 접속하면기본 컴포넌트 <br>
 >뒤에 /about를하면 전달받아 About.js를 보여주게되는것이다
 
   ![ex.image](./1030.png)
+
   ※ About.css적용이 되어있습니다!
 
 
