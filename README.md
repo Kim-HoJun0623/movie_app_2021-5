@@ -1,5 +1,45 @@
 # 김호준 201740211
 
+## [11월03일]
+ Navigation 컴포넌트 만들기
+
+ ```js
+import { Link } from "react-router-dom"
+import './Navigation.css'
+function Navigation(){
+    return(
+    <div className='nav'>
+       <Link to="/">HOME</Link>
+       <Link to="/about">About</Link>
+    </div>
+    )
+}
+
+export default Navigation
+
+ ```
+Navigation.js 생성하여 HOME과 About 버튼을 만들고 <br>
+눌렀을떄 각각의 화면 표출!!
+<hr>
+App.js에 등록하기
+
+```js 
+  function App(){
+  return(
+   <HashRouter> 
+      <Navigation />
+      <Route path='/'exact={true}  component={Home}/>
+      <Route path='/about' component={About}/>
+   </HashRouter>
+  )
+}
+
+```
+이런식으로 Navigation 을 불러와 Navigation버튼을 넣어준다.!
+<br>
+Navigation을 사용하여 HOME버튼을 누를시  HOME컴포넌트를 불러오고
+About 버튼을 누를시 About컴포넌트를 가져와 화면에 보여준다!!
+
 ## [10월27일]
 
 ### Slice함수
