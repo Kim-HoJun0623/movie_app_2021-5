@@ -1,7 +1,7 @@
 # 김호준 201740211
 
 ## [11월10일]
-### git hub 페이지
+## git hub 페이지
 
 
 >"homepage": "https://Kim-HoJun0623.github.io/movie_app_2021-5"
