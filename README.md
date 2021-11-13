@@ -1,5 +1,39 @@
 # 김호준 201740211
 
+## [11월10일]
+### git hub 페이지
+
+
+>"homepage": "https://Kim-HoJun0623.github.io/movie_app_2021-5"
+
+  git hub에서 지원하는 페이지로 올려주기 위해
+  <br>
+  package.json에다가 홈페이지 주소를 적어줍니다.
+
+
+ -   "predeploy": "npm run build",
+ -   "deploy": "gh-pages -d build"
+
+  package.json에 script 부분에 적어줍니다
+    <br>
+ - npm install gh-pages  <br>
+
+github 페이지를 만들기 위해서 터미널 작성
+- npm run deploy
+
+## CDN링크 
+-React와 ReactDOM 모두 CDN을 통해 사용할 수 있습니다.
+
+```js
+<script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+```
+<br>
+
+-react와 react-dom의 특정 버전을 로딩하려면 17을 사용하고자 하는 버전 넘버로 대체하면 됩니다.
+
+
+
 ## [11월03일]
  Navigation 컴포넌트 만들기
 
