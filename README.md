@@ -1,5 +1,46 @@
 # 김호준 201740211
 
+## [11월17일]
+<hr>
+
+## [TodoList]
+>TodoApp과 TodoList 두개의 컴포넌트로 구성한다.<br>
+handleChange는 모든 키보드 입력마다 React의 state를 갱신해서 보여준다.
+(element)확인가능하다.<br>
+
+#### 시간순으로 보면 다음과 같이 동작함!
+
+- 유저입력 > handleChange >React의 state 갱신 > form element가 React state
+를 참조한다.
+-  유저 입력을 강제로 대문자로 변경할 경우에도 사용한다
+
+## [TodoListComponent]
+- TodoList class를 생성한다.
+- ul 안에 추가된 task를 li로 출력한다.
+- 앞서 저장한 id값은 key props로 사용한다.
+- 마지막으로 ReactDOM으로 랜더링만 하면 끝난다.
+
+## [key props의 역활]
+
+>key는 props의 안정적으로 사용할 수 있도록 고유성을 부여하기 위해 필요하다.<br>
+React가 어떤 props를 변경, 추가 또는 삭제할지 식별하는 것을 도와준다.<br>
+반드시 date를 사용하지 않아도된다. 배열의 index값을 사용해도 된다.<br>
+유일한 값이라면 그 값이 무엇이든 상관없다.
+
+## [Remarkable사용하기]
+
+1. creat-react-app으로 markdown-editor 프로젝트를 생성한다.
+
+2. 정상 동작을 확인하다.
+3. App.js에 있는 필요없는 코드를 삭제 및 코드 복사해 넣어준다.
+4. component의 이름을 App으로 수정한다.
+5. rendering은 index.js에 위임한다.
+6. Remarkable을 설치한다.
+7. React와 Remarkable을 import한다.
+8. 동작확인!!
+
+
+
 ## [11월10일]
 ## git hub 페이지
 
